@@ -20,7 +20,10 @@
 				line-height: inherit !important;
 			}
 
-			#MessageViewBody a[href*="calendar:"] {
+			.mail-message-content a[href*="calendar:"],
+			.mail-message-content a[href*="tel:"],
+			.mail-message-content a[href*="mailto:"],
+			.mail-message-content a[href*="geo:"] {
 				color: inherit;
 				text-decoration: none;
 				font-size: inherit;
